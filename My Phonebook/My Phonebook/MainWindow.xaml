@@ -1,0 +1,43 @@
+﻿<Window x:Class="My_Phonebook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="4*" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="0" Margin="10" Height="30"/>
+            <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="10" Content="Agregar Nuevo" Click="BtnNew_Click" />
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <DataGrid x:Name="DGContacts" Grid.Row="1" Grid.Column="0" Margin="10" AutoGenerateColumns="False"
+				  DataContext="{Binding}" ItemsSource="{Binding}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Path=Name}"/>
+                <DataGridTextColumn Header="Telefono" Binding="{Binding Path=Telephone}"/>
+                <DataGridTextColumn Header="Grupo" Binding="{Binding Path=group}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+            <ListBox x:Name="List_group" Grid.Column="1" HorizontalAlignment="Left" Height="224" Margin="10,12,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.1,0">
+                <Button Content="movil"/>
+                <Button Content="trabajo"/>
+                <Button Content="personal"/>
+                <Button Content="oficina"/>
+                <Button Content="otros"/>
+            </ListBox>
+        </Grid>
+        
+    </Grid>
+</Window>

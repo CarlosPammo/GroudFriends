@@ -1,0 +1,14 @@
+c:\users\toshiba\documents\visual studio 2012\Projects\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe.config
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe.config
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\bin\Debug\My Phonebook.pdb
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook.csprojResolveAssemblyReference.cache
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\MainWindow.baml
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\MainWindow.g.cs
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\App.g.cs
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook_MarkupCompile.cache
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook.g.resources
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My_Phonebook.Properties.Resources.resources
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook.csproj.GenerateResource.Cache
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook.exe
+D:\MIS DOCUMENTOS\Escritorio\My Phonebook\My Phonebook\obj\Debug\My Phonebook.pdb
