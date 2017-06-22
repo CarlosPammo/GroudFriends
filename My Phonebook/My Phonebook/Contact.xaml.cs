@@ -19,6 +19,8 @@ namespace My_Phonebook
     /// </summary>
     public partial class Contact : Window
     {
+        private List<Contact> Contacts { get; set; }
+
         public bool accion;
         public Contact()
         {
@@ -29,7 +31,7 @@ namespace My_Phonebook
         {
             if (accion == true)
             {
-                agregar(txtName.Text, TxtAddress.Text, txtDetails.Text);
+                //agregar(txtName.Text, TxtAddress.Text, txtDetails.Text);
             }
             else
             { }

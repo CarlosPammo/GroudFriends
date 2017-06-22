@@ -12,7 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
+using System.Xml;
+using System.Xml.Linq;
+using System.Data;
 namespace My_Phonebook
 {
     /// <summary>
@@ -20,12 +24,16 @@ namespace My_Phonebook
     /// </summary>
     public partial class MainWindow : Window
     {
+        DataSet ds = new DataSet("Table");
+       // XmlSerializer XMLC = new XmlSerializer(typeof(Contact));
+       //Contact datos = (Contact)XmlConvert.Deserialize(xml);
         public MainWindow()
         {
-            InitializeComponent();
-            Controller.Crud n = new Controller.Crud();
-            this.DGContacts.DataContext = ds;
-            this.DGContacts.DataContext=""
+           InitializeComponent();
+            var file = @"Contact.xml";
+            ds.ReadXml(file);
+            DGContacts.DataContext = ds.Tables[0].DefaultView;
+            
         }
 
         private void BtnNew_Click(object sender, RoutedEventArgs e)
@@ -35,5 +43,13 @@ namespace My_Phonebook
             mi.Hide();
             cont.Show();
         }
+
+        private void Consulta(object sender, KeyEventArgs e)
+        {
+          //  if (e.KeyboardDevice == "")
+           // { }
+        }
+
+
     }
 }

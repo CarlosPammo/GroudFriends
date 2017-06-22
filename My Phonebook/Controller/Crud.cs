@@ -12,18 +12,13 @@ namespace Controller
 {
     public class Crud
     {
-        XDocument miXML = XDocument.Load(@"Contact.xml");
-        DataSet ds = new DataSet();
-
         public void agregar(string name, string address, string detalle)
-        { 
-        
+        {
+
         }
         public void cargar()
         {
-            ds.Clear();
-            var Archivo = "Contact.xml";
-            ds.ReadXml(Archivo);
+
         }
  
     }

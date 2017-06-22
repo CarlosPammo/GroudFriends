@@ -4,10 +4,24 @@
     <Name>Dani</Name>
     <Address>te amo</Address>
     <Detalle>que sea para toda la vida</Detalle>
+    <Num_movile></Num_movile>
+    <Num_work></Num_work>
+    <Num_staff></Num_staff>
+    <Num_other></Num_other>
+    <Email_work></Email_work>
+    <Email_home></Email_home>
+    <Email_other></Email_other>
   </Contacto>
   <Contacto Cod="2">
     <Name>Jadiael</Name>
     <Address>se perdio el amor</Address>
     <Detalle>se perdio la confianza</Detalle>
+    <Num_movile></Num_movile>
+    <Num_work></Num_work>
+    <Num_staff></Num_staff>
+    <Num_other></Num_other>
+    <Email_work></Email_work>
+    <Email_home></Email_home>
+    <Email_other></Email_other>
   </Contacto>
 </Contactos>
