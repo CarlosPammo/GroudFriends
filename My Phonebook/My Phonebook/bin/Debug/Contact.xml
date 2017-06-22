@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Contactos>
+  <Contacto Cod="1">
+    <Name>Dani</Name>
+    <Address>te amo</Address>
+    <Detalle>que sea para toda la vida</Detalle>
+  </Contacto>
+  <Contacto Cod="2">
+    <Name>Jadiael</Name>
+    <Address>se perdio el amor</Address>
+    <Detalle>se perdio la confianza</Detalle>
+  </Contacto>
+</Contactos>

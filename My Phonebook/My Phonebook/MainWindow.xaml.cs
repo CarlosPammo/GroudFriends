@@ -23,11 +23,17 @@ namespace My_Phonebook
         public MainWindow()
         {
             InitializeComponent();
+            Controller.Crud n = new Controller.Crud();
+            this.DGContacts.DataContext = ds;
+            this.DGContacts.DataContext=""
         }
 
         private void BtnNew_Click(object sender, RoutedEventArgs e)
         {
-
+            Contact cont = new Contact();
+            MainWindow mi = new MainWindow();
+            mi.Hide();
+            cont.Show();
         }
     }
 }

@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My Phonebook", "My Phonebook\My Phonebook.csproj", "{4D83C303-9D66-4E64-9A13-A8023C85889A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{19AF9937-DBF5-44E2-B4B6-FBE96A12ABDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{FD5BC6EC-41EE-48AF-AA8E-6BA5BB67D251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{4D83C303-9D66-4E64-9A13-A8023C85889A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D83C303-9D66-4E64-9A13-A8023C85889A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D83C303-9D66-4E64-9A13-A8023C85889A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AF9937-DBF5-44E2-B4B6-FBE96A12ABDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AF9937-DBF5-44E2-B4B6-FBE96A12ABDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AF9937-DBF5-44E2-B4B6-FBE96A12ABDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AF9937-DBF5-44E2-B4B6-FBE96A12ABDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5BC6EC-41EE-48AF-AA8E-6BA5BB67D251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5BC6EC-41EE-48AF-AA8E-6BA5BB67D251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5BC6EC-41EE-48AF-AA8E-6BA5BB67D251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5BC6EC-41EE-48AF-AA8E-6BA5BB67D251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

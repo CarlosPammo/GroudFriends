@@ -15,7 +15,7 @@
             </Grid.ColumnDefinitions>
 
             <TextBox Grid.Column="0" Margin="10" Height="30"/>
-            <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="10" Content="Agregar Nuevo" Click="BtnNew_Click" />
+            <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="46,17,35,17" Content="+" Click="BtnNew_Click" />
         </Grid>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
