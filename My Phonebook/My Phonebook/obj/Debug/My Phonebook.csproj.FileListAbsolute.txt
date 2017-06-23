@@ -19,3 +19,6 @@ C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\My Phonebook\obj\Deb
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.pdb
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Controller.dll
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Controller.pdb
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe.config
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.exe
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.pdb
