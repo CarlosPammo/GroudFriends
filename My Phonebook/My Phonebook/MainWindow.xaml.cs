@@ -103,6 +103,7 @@ namespace My_Phonebook
 
         private void buscar_TextChanged(object sender, TextChangedEventArgs e)
         {
+            //aver si asi da algo
             var Filtrar = (from x in Contactoss
                            where ((x.Num_movile != null) && (x.Num_movile.StartsWith(buscar.Text)))
                            select x).ToList();
