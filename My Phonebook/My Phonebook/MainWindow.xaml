@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="Auto" MinWidth="156" />
             </Grid.ColumnDefinitions>
             <DataGrid x:Name="DGContacts" Grid.Column="0" Margin="10" AutoGenerateColumns="False"
-				  DataContext="{Binding}" ItemsSource="{Binding}" Background="Aqua" VerticalGridLinesBrush="Black"    >
+				  DataContext="{Binding}" ItemsSource="{Binding}" Background="Aqua" VerticalGridLinesBrush="Black" SelectionChanged="DGContacts_SelectionChanged"    >
                 
                 <DataGrid.RowBackground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -53,11 +53,12 @@
                 </DataGrid.Columns>
         </DataGrid>
             <ListBox x:Name="List_group" Grid.Column="1" HorizontalAlignment="Left" Height="224" Margin="10,12,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.1,0">
-                <Button Content="movil"/>
-                <Button Content="trabajo"/>
-                <Button Content="Casa"/>
-                <Button Content="oficina"/>
-                <Button Content="otros"/>
+                <Button Content="movil" Click="Button_Click_1"/>
+                <Button Content="trabajo" Click="Button_Click_2"/>
+                <Button Content="Casa" Click="Button_Click_3"/>
+                <Button Content="nuevo" Click="Button_Click_4"/>
+                <Button Content="oficina" Click="Button_Click_5"/>
+                <Button Content="otros" Click="Button_Click_6"/>
             </ListBox>
         </Grid>
         

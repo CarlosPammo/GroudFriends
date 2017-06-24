@@ -37,7 +37,8 @@ namespace My_Phonebook
             
         // Contacts contacto = new Contacts();
          contacto.Name = txtName.Text;
-         contacto.Address = TxtAddress.Text;
+
+         contacto.Address =TxtAddress.Text;
          contacto.Detalle = txtDetails.Text;
          contacto.Num_movile = txtMovile.Text;
          contacto.Num_work = txtWork.Text;

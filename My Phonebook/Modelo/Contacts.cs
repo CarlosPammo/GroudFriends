@@ -9,9 +9,10 @@ namespace Modelo
 {
     public class Contacts
     {
-
+       
         public string Name { get; set; }
-        public string Num_movile { get; set; }
+        public string num_movile;
+        public string Num_movile {get; set;}
         public string Group { get; set; }
 
 

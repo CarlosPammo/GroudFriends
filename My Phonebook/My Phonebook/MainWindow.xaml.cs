@@ -104,8 +104,87 @@ namespace My_Phonebook
         private void buscar_TextChanged(object sender, TextChangedEventArgs e)
         {
             //aver si asi da algo
+            //lo que hace es verificar si son letras o numeros
+            //ahi dice si es diferente de un numero
+            var Filtrar=(from x in Contactoss
+                       select x).ToList();
+            if (buscar.Text != "")
+            {
+                if (!char.IsDigit(buscar.Text[0]))
+                {
+
+                    Filtrar = (from x in Contactoss
+                               where ((x.Name != null) && (x.Name.StartsWith(buscar.Text)))
+                               select x).ToList();
+                    DGContacts.DataContext = Filtrar;
+                }
+                else
+                {
+                    Filtrar = (from x in Contactoss
+                               where ((x.Num_movile != null) && (x.Num_movile.StartsWith(buscar.Text)))
+                               select x).ToList();
+                }
+            }
+            
+
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void DGContacts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
             var Filtrar = (from x in Contactoss
-                           where ((x.Num_movile != null) && (x.Num_movile.StartsWith(buscar.Text)))
+                               where ((x.Group != null) && (x.Group=="movil"))
+                               select x).ToList();
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Group != null) && (x.Group == "trabajo"))
+                           select x).ToList();
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Group != null) && (x.Group == "casa"))
+                           select x).ToList();
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Group != null) && (x.Group == "nuevo"))
+                           select x).ToList();
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Group != null) && (x.Group == "oficina"))
+                           select x).ToList();
+            DGContacts.DataContext = Filtrar;
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            //Lo qque hace es filtrar por Grupo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Group != null) && (x.Group == "Otros"))
                            select x).ToList();
             DGContacts.DataContext = Filtrar;
         }

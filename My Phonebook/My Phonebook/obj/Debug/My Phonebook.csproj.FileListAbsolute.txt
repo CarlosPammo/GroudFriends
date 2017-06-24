@@ -61,3 +61,24 @@ C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\My Phoneb
 C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.g.resources
 C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My_Phonebook.Properties.Resources.resources
 C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.csproj.GenerateResource.Cache
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe.config
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.exe
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\My Phonebook.exe
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\My Phonebook.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Controller.dll
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Modelo.dll
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Controller.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\bin\Debug\Modelo.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\Contact.baml
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\Login.baml
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\MainWindow.baml
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\Contact.g.cs
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\Login.g.cs
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\MainWindow.g.cs
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\App.g.cs
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook_MarkupCompile.cache
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.g.resources
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My_Phonebook.Properties.Resources.resources
+C:\Users\Toshiba\Documents\Nueva carpeta (4)\GroudFriends\My Phonebook\My Phonebook\obj\Debug\My Phonebook.csproj.GenerateResource.Cache
