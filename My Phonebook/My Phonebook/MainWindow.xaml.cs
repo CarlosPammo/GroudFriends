@@ -18,6 +18,9 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Data;
 using Modelo;
+
+
+using System.IO;
 namespace My_Phonebook
 {
     /// <summary>
@@ -27,40 +30,23 @@ namespace My_Phonebook
     {
         public int a=0;
         public List<Contacts> Contactoss { get; set; }
-        //DataSet ds = new DataSet("Table");
-       // XmlSerializer XMLC = new XmlSerializer(typeof(Contact));
-       //Contact datos = (Contact)XmlConvert.Deserialize(xml);
+      
         public MainWindow()
         {
            InitializeComponent();
            Init();
-           /* var file = @"Contact.xml";
-            ds.ReadXml(file);
-            DGContacts.DataContext = ds.Tables[0].DefaultView;*/
-            
+          
         }
 
         public void Init()
         {
-            Contactoss = new List<Contacts>
-				           {
-							   new Contacts
-								   {
-										Name = "Carlos",
-										Address = "Por aqui",
-                                        Detalle = "cuajskd",
-                                        Num_movile= "558525",
-                                        Num_work="555555",
-                                        Num_office="8566",
-                                        Num_staff="526",
-                                        Num_other="1236546",
-                                        Email_work="gfsgffgdc",
-                                        Email_home="hgbchgchg",
-                                        Email_other="hgcchgdfhg",
-                                        groud="trabajo"
-								   },
-								   
-				           };
+            string myfilr = "Contact.xml";
+            //El unico cambio que hace es fileMode.Open  esto pemite obtener todos los datos del archivo
+            FileStream fs = new FileStream(myfilr, FileMode.Open);
+            XmlSerializer Xser = new XmlSerializer(typeof(List<Contacts>));
+
+            Contactoss = (List<Contacts>)Xser.Deserialize(fs);
+            fs.Close();
 
             DGContacts.DataContext = Contactoss;
             DGContacts.Items.Refresh();
@@ -101,6 +87,27 @@ namespace My_Phonebook
             Contacts selected = (Contacts)DGContacts.SelectedItem;
             Contactoss.Remove(selected);
             DGContacts.Items.Refresh();
+        }
+
+        private void Save(object sender, EventArgs e)
+        {
+            XmlSerializer xser = new XmlSerializer(typeof(List<Contacts>));
+            string myfilr = "Contact.xml";
+
+            FileStream fs = new FileStream(myfilr, FileMode.Create);
+            xser.Serialize(fs, Contactoss);
+
+            fs.Close();
+            MessageBox.Show("Guardado");
+        }
+
+        private void buscar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            //aver si asi da algo
+            var Filtrar = (from x in Contactoss
+                           where ((x.Num_movile != null) && (x.Num_movile.StartsWith(buscar.Text)))
+                           select x).ToList();
+            DGContacts.DataContext = Filtrar;
         }
 
 
