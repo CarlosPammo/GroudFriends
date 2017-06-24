@@ -5,3 +5,10 @@ C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\Controller\bin\Debug
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.dll
 C:\Users\Toshiba\Desktop\proyecto\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.pdb
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\bin\Debug\Controller.dll
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\bin\Debug\Controller.pdb
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\bin\Debug\Modelo.dll
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\bin\Debug\Modelo.pdb
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.csprojResolveAssemblyReference.cache
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.dll
+D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Controller\obj\Debug\Controller.pdb

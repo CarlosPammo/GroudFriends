@@ -14,7 +14,7 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
 
-            <TextBox Grid.Column="0" Margin="10" Height="30" KeyDown="Consulta"/>
+            <TextBox Grid.Column="0" Margin="10" Height="30" />
             <Button x:Name="BtnNew" Grid.Column="1" Height="30" Margin="46,17,35,17" Content="+" Click="BtnNew_Click" />
         </Grid>
         <Grid Grid.Row="1">
@@ -23,7 +23,7 @@
                 <ColumnDefinition Width="Auto" MinWidth="156" />
             </Grid.ColumnDefinitions>
             <DataGrid x:Name="DGContacts" Grid.Column="0" Margin="10" AutoGenerateColumns="False"
-				  DataContext="{Binding}" ItemsSource="{Binding}" Background="Aqua" VerticalGridLinesBrush="Black" >
+				  DataContext="{Binding}" ItemsSource="{Binding}" Background="Aqua" VerticalGridLinesBrush="Black"    >
                 
                 <DataGrid.RowBackground>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -33,14 +33,29 @@
                 </DataGrid.RowBackground>
                 <DataGrid.Columns>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding Path=Name}" Foreground="#FF5372B4"/>
-                <DataGridTextColumn Header="Telefono" Binding="{Binding Path=Address}"/>
-                <DataGridTextColumn Header="Grupo" Binding="{Binding Path=Detalle}"/>
-            </DataGrid.Columns>
+                    <DataGridTextColumn Header="Telefono" Binding="{Binding Path=Num_movile}"/>
+                    <DataGridTextColumn Header="Grupo" Binding="{Binding Path=groud}"/>
+
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Editar" Click="Update_Click" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="Eliminar" Click="Delete_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
         </DataGrid>
             <ListBox x:Name="List_group" Grid.Column="1" HorizontalAlignment="Left" Height="224" Margin="10,12,0,0" VerticalAlignment="Top" Width="109" RenderTransformOrigin="0.1,0">
                 <Button Content="movil"/>
                 <Button Content="trabajo"/>
-                <Button Content="personal"/>
+                <Button Content="Casa"/>
                 <Button Content="oficina"/>
                 <Button Content="otros"/>
             </ListBox>

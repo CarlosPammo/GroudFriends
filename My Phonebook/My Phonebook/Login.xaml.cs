@@ -23,5 +23,11 @@ namespace My_Phonebook
         {
             InitializeComponent();
         }
+
+        private void BtnNew_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+
+        }
     }
 }
