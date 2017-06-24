@@ -47,7 +47,7 @@ namespace My_Phonebook
          contacto.Email_work = txtEmailWork.Text;
          contacto.Email_home = txtEmailHome.Text;
          contacto.Email_other = txtEmailOther.Text;
-         contacto.groud = BoxtGrupo.Text;
+         contacto.Group = BoxtGrupo.Text;
          OnAccept(contacto);
             Close();
         }
@@ -70,7 +70,7 @@ namespace My_Phonebook
             txtEmailWork.Text = contactos.Email_work;
             txtEmailHome.Text = contactos.Email_home;
             txtEmailOther.Text = contactos.Email_other;
-            BoxtGrupo.Text = contactos.groud;
+            BoxtGrupo.Text = contactos.Group;
             txtStaff.Text = contactos.Num_staff;
             contacto = contactos;
 		}

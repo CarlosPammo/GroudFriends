@@ -8,3 +8,8 @@ D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Modelo\bin\Debu
 D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.dll
 D:\MIS DOCUMENTOS\Escritorio\proyecto#\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\Modelo\bin\Debug\Modelo.dll
+C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.dll
+C:\Users\Toshiba\Documents\Nueva carpeta (3)\GroudFriends\My Phonebook\Modelo\obj\Debug\Modelo.pdb

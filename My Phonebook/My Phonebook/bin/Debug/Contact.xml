@@ -1,27 +1,56 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Contactos>
-  <Contacto Cod="1">
-    <Name>Dani</Name>
-    <Address>te amo</Address>
-    <Detalle>que sea para toda la vida</Detalle>
-    <Num_movile></Num_movile>
-    <Num_work></Num_work>
-    <Num_staff></Num_staff>
-    <Num_other></Num_other>
-    <Email_work></Email_work>
-    <Email_home></Email_home>
-    <Email_other></Email_other>
-  </Contacto>
-  <Contacto Cod="2">
-    <Name>Jadiael</Name>
-    <Address>se perdio el amor</Address>
-    <Detalle>se perdio la confianza</Detalle>
-    <Num_movile></Num_movile>
-    <Num_work></Num_work>
-    <Num_staff></Num_staff>
-    <Num_other></Num_other>
-    <Email_work></Email_work>
-    <Email_home></Email_home>
-    <Email_other></Email_other>
-  </Contacto>
-</Contactos>
+<?xml version="1.0"?>
+<ArrayOfContacts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contacts>
+    <Name>nombre</Name>
+    <Num_movile>73867823648</Num_movile>
+    <Group>nuevo</Group>
+    <Address />
+    <Detalle />
+    <Num_work>dvfevefvef</Num_work>
+    <Num_staff>dvefcd</Num_staff>
+    <Num_other />
+    <Email_work />
+    <Email_home />
+    <Email_other />
+  </Contacts>
+  <Contacts>
+    <Name>Daniela</Name>
+    <Num_movile>8758587</Num_movile>
+    <Group>nuevo</Group>
+    <Address />
+    <Detalle />
+    <Num_work>dvfevefvef</Num_work>
+    <Num_staff>dvefcd</Num_staff>
+    <Num_other />
+    <Email_work />
+    <Email_home />
+    <Email_other />
+  </Contacts>
+  <Contacts>
+    <Name>Ariel</Name>
+    <Num_movile>874</Num_movile>
+    <Group>nuevo</Group>
+    <Address />
+    <Detalle />
+    <Num_work>dvfevefvef</Num_work>
+    <Num_staff>dvefcd</Num_staff>
+    <Num_other />
+    <Email_work />
+    <Email_home />
+    <Email_other />
+  </Contacts>
+  <Contacts>
+    <Name>sdgwrgf</Name>
+    <Num_movile>233e2e</Num_movile>
+    <Group />
+    <Address />
+    <Detalle />
+    <Num_work>edsd</Num_work>
+    <Num_staff>sdsd</Num_staff>
+    <Num_office />
+    <Num_other />
+    <Email_work />
+    <Email_home />
+    <Email_other />
+  </Contacts>
+</ArrayOfContacts>
